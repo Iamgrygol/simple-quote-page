@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: .125rem;
 }
 
@@ -25,7 +25,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   width: 80vw;
-  padding-top: 6rem;
+  padding-top: 2rem;
   font-family: 'Open Sans Condensed', 'Julius Sans One', sans-serif;
   line-height: 1.5; 
   color: #0E0E0E;
@@ -34,8 +34,8 @@ h1 {
 
 
 p {
-  font-size: 1.5rem;
-  padding-top: 5rem;
+  font-size: 1rem;
+  padding-top: 1.975rem;
   font-family: 'Crimson Text', serif;
   font-style: italic;
   
@@ -59,17 +59,23 @@ p {
 /* === responsive === */
 /* ===================*/
 
-@media (max-width: 1166px)
+@media (min-width: 768px)
 {
   p
   {
-    padding-top: 1.975rem;
-    font-size: 1rem;
+    padding-top: 5rem;
+    font-size: 1.5rem;
   }
   
   h1
   {
-    font-size: 2rem;
+    
+    font-size: 2.5rem;
+  }
+  
+  .wrapper
+  {
+    padding-top: 6rem;
   }
 }
 
