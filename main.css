@@ -64,14 +64,13 @@ p {
   p
   {
     padding-top: 1.975rem;
+    font-size: 1rem;
+  }
+  
+  h1
+  {
+    font-size: 2rem;
   }
 }
 
-@media (max-width: 1500px)
-{
-  p
-  {
-    padding-top: 10rem;
-  }
-}
 
